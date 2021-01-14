@@ -1,5 +1,5 @@
 DIRECTORY = chart
-URL = https://matrus2.github.io/csi-secret-provider-class/chart
+URL = https://matrus2.github.io/secret-provider-class-library/chart
 
 *.tgz: generate
 	mv $@ ${DIRECTORY}/
