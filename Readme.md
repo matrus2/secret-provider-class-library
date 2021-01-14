@@ -1,4 +1,4 @@
-CSI_SPC
+secret-provider-class-library
 ------
 Helm library, which adds helpful functions to mount secrets on pod start by [secrets-store-csi-driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver) and chosen provider.
 

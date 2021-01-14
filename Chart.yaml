@@ -1,5 +1,5 @@
 apiVersion: v2
-name: spc
-description: Library which add helpers method to easily use secret-provider-class
+name: secret-provider-class-library
+description: Adds helpful functions to mount secrets on pod start
 type: library
 version: 0.1.0

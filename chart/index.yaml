@@ -1,13 +1,13 @@
 apiVersion: v1
 entries:
-  spc:
+  secret-provider-class-library:
   - apiVersion: v2
-    created: "2021-01-14T13:21:40.114863+01:00"
-    description: Library which add helpers method to easily use secret-provider-class
-    digest: ad9f31f91b9d30942397805d113adb8e75cf9f95a5ee7e259b28113abea2d935
-    name: spc
+    created: "2021-01-14T13:46:24.151443+01:00"
+    description: Adds helpful functions to mount secrets on pod start
+    digest: 5ba9d3255cb5a23b770ebdaa717ec72c52c30b262792daba34c431f28ddf3d86
+    name: secret-provider-class-library
     type: library
     urls:
-    - def/spc-0.1.0.tgz
+    - https://matrus2.github.io/csi-secret-provider-class/chart/secret-provider-class-library-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-14T13:21:40.11403+01:00"
+generated: "2021-01-14T13:46:24.150824+01:00"
