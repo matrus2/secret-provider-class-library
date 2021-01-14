@@ -1,0 +1,5 @@
+apiVersion: v2
+name: spc
+description: Library which add helpers method to easily use secret-provider-class
+type: library
+version: 0.1.0

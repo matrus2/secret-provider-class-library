@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  spc:
+  - apiVersion: v2
+    created: "2021-01-14T13:21:40.114863+01:00"
+    description: Library which add helpers method to easily use secret-provider-class
+    digest: ad9f31f91b9d30942397805d113adb8e75cf9f95a5ee7e259b28113abea2d935
+    name: spc
+    type: library
+    urls:
+    - def/spc-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-14T13:21:40.11403+01:00"
