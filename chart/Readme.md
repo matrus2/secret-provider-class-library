@@ -3,7 +3,7 @@ secret-provider-class-library
 Helm library, which adds helpful functions to mount secrets on pod start by [secrets-store-csi-driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver) and chosen provider. From now on you can specify secrets as a list in your 'values.yaml' file. For the time being it supports only secrets.
 
 ## How to use it
-1. First of all ensure that you have a csi driver and provider installed as describet e.g. here for azure provider ([install provider](https://github.com/Azure/secrets-store-csi-driver-provider-azure/blob/master/charts/csi-secrets-store-provider-azure/README.md)) 
+1. First of all ensure that you have a csi driver and provider installed as described e.g. here for azure provider ([install provider](https://github.com/Azure/secrets-store-csi-driver-provider-azure/blob/master/charts/csi-secrets-store-provider-azure/README.md)) 
 2. Install library as dependency in `Chart.yaml`:
 ```
 dependencies:
