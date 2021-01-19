@@ -1,7 +1,5 @@
 secret-provider-class-library
 ------
-[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/secret-provider-class-library)](https://artifacthub.io/packages/search?repo=secret-provider-class-library)
-
 Helm library, which adds helpful functions to mount secrets on pod start by [secrets-store-csi-driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver) and chosen provider. From now on you can specify secrets as a list in your 'values.yaml' file. For the time being it supports only secrets.
 
 ## How to use it

@@ -1,0 +1,5 @@
+# Artifact Hub repository metadata file
+repositoryID: aed056f4-10b3-407f-81e5-c4eb35b07641
+owners: # (optional, used to claim repository ownership)
+  - name: Bogusz Przybyslawski
+    email: bogusz@przybyslawski.com
