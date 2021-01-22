@@ -2,4 +2,4 @@ apiVersion: v2
 name: secret-provider-class-library
 description: Adds helpful functions to mount secrets on pod start
 type: library
-version: 0.3.0
+version: 0.3.1
