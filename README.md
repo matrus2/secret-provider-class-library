@@ -1,19 +1,21 @@
 secret-provider-class-library
 ------
-[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/secret-provider-class-library)](https://artifacthub.io/packages/search?repo=secret-provider-class-library)
-
 Helm library, which adds helpful functions to mount secrets on pod start by [secrets-store-csi-driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver) and chosen provider. From now on you can specify secrets as a list in your 'values.yaml' file. For the time being it supports only secrets.
 
 ## How to use it
-1. First of all ensure that you have a csi driver and provider installed as describet e.g. here for azure provider ([install provider](https://github.com/Azure/secrets-store-csi-driver-provider-azure/blob/master/charts/csi-secrets-store-provider-azure/README.md)) 
-2. Install library as dependency in `Chart.yaml`:
+1. First of all ensure that you have a csi driver and provider installed as described e.g. here for azure provider ([install provider](https://github.com/Azure/secrets-store-csi-driver-provider-azure/blob/master/charts/csi-secrets-store-provider-azure/README.md)) 
+2. Add repository:
+```
+helm repo add spc https://matrus2.github.io/secret-provider-class-library/chart
+```
+3. Install library as dependency in `Chart.yaml`:
 ```
 dependencies:
   - name: secret-provider-class-library
     version: 0.2.0
     repository: "https://matrus2.github.io/secret-provider-class-library/chart"
 ```
-3. Set proper values in `values.yaml`:
+4. Set proper values in `values.yaml`:
 
 ```helmyaml
 keyVault:
@@ -30,12 +32,12 @@ keyVault:
   secretsDir: /secrets                     # [Optional] path where secrets will be mounted defaults to /secrets
 
 ```
-4. Create a placeholder template yaml file for secret-provider-class and put the following code:
+5. Create a placeholder template yaml file for secret-provider-class and put the following code:
 ```
 # templates/secret-provider-template.yaml
 {{- include  "spc.tpl" . -}}
 ```
-5. In your deployment yaml template add volumeMount entry and volume entry:
+6. In your deployment yaml template add volumeMount entry and volume entry:
 ```
 # templates/deployment.yaml
 kind: Deployment
@@ -55,7 +57,7 @@ apiVersion: apps/v1
       {{- end }}
 
 ```
-6. Star this repo.
+7. Star this repo.
 
 ### Notes
 

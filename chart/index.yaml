@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   secret-provider-class-library:
   - apiVersion: v2
-    created: "2021-01-22T11:46:10.090825+01:00"
+    created: "2021-01-25T14:51:47.457846+01:00"
+    description: Adds helpful functions to mount secrets on pod start
+    digest: 8a9c325b22545dd65fa7119576236dce771d27fb3365c0e62e442c63532adc3c
+    name: secret-provider-class-library
+    type: library
+    urls:
+    - https://matrus2.github.io/secret-provider-class-library/chart/secret-provider-class-library-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2021-01-25T14:51:47.455297+01:00"
     description: Adds helpful functions to mount secrets on pod start
     digest: d73a5eb9eeac666eae88aeb2ea9068d828fe3996a40901c9b3ee45cb79579e52
     name: secret-provider-class-library
@@ -11,7 +20,7 @@ entries:
     - https://matrus2.github.io/secret-provider-class-library/chart/secret-provider-class-library-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2021-01-22T11:46:10.089084+01:00"
+    created: "2021-01-25T14:51:47.452832+01:00"
     description: Adds helpful functions to mount secrets on pod start
     digest: b1416f9ca0f4922914ec56a05017ea2bfc2b9840c8d858c867281f7c8714bd00
     name: secret-provider-class-library
@@ -20,7 +29,7 @@ entries:
     - https://matrus2.github.io/secret-provider-class-library/chart/secret-provider-class-library-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2021-01-22T11:46:10.088066+01:00"
+    created: "2021-01-25T14:51:47.451467+01:00"
     description: Adds helpful functions to mount secrets on pod start
     digest: 0f2aa0c50bd13d6af9d79b54952592e3c77ce22c63e6b6c92eadade17df84820
     name: secret-provider-class-library
@@ -29,7 +38,7 @@ entries:
     - https://matrus2.github.io/secret-provider-class-library/chart/secret-provider-class-library-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2021-01-22T11:46:10.086463+01:00"
+    created: "2021-01-25T14:51:47.450674+01:00"
     description: Adds helpful functions to mount secrets on pod start
     digest: 332a5a075287ea62303f02b88bb862244391a3e14fca1db160766a9e72f9fc4b
     name: secret-provider-class-library
@@ -37,4 +46,4 @@ entries:
     urls:
     - https://matrus2.github.io/secret-provider-class-library/chart/secret-provider-class-library-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-22T11:46:10.085704+01:00"
+generated: "2021-01-25T14:51:47.44985+01:00"
