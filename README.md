@@ -12,7 +12,7 @@ helm repo add spc https://matrus2.github.io/secret-provider-class-library/chart
 ```
 dependencies:
   - name: secret-provider-class-library
-    version: 0.2.0
+    version: 0.4.0
     repository: "https://matrus2.github.io/secret-provider-class-library/chart"
 ```
 4. Set proper values in `values.yaml`:
